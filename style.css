@@ -19,30 +19,6 @@ body {
   overflow: hidden;
   perspective: 1000px;
 }
-.name {
-  color: white;
-  font-family: 'Courier New', Courier, monospace;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3vmin;
-  opacity: 0;
-  animation: fadeIn 2s ease-in-out forwards;
-  z-index: 1000;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: translate(-50%, -50%) scale(0.8);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
-  }
-}
 
 .night {
   position: fixed;
